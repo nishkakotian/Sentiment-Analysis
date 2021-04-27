@@ -10,9 +10,9 @@
 
 <body>
   <div class="container w-100">
-    <nav class="navbar navbar-expand-sm">
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand navbar-expand-sm" href="#" style="font-size:2.75em; letter-spacing:0.15em; padding-top:1%;">Sentiment Analyser </a>
+        <a class="navbar-brand" href="#" style="color:#8b03b4;font-size:3em ;letter-spacing:0.15em;padding-top:1%;">Sentiment Analyser </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -41,7 +41,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="feature-box" style="padding-left:20%">
-            <h1>Analyse your text !</h1>
+            <h1>ANALYSE YOUR TEXT!</h1>
             <p> Enter your text here to perform sentiment analysis</p>
             <form method = "POST", action = "{{url_for('text')}}">
               <input type = "text", name = "text", placeholder = "Enter text"><br>
